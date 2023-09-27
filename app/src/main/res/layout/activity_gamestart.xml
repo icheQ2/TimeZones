@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".ui.GameStart">
+
+    <TextView
+        android:id="@+id/start_counter"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:fontFamily="@font/roboto"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.805" >
+
+        <TableRow>
+
+            <ImageView
+                android:id="@+id/start_timezone0"
+                android:layout_width="110dp"
+                android:layout_height="100dp"
+                android:contentDescription="@string/tz_description"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <ImageView
+                android:id="@+id/start_timezone1"
+                android:layout_width="110dp"
+                android:layout_height="100dp"
+                android:contentDescription="@string/tz_description"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+            <ImageView
+                android:id="@+id/start_timezone2"
+                android:layout_width="110dp"
+                android:layout_height="100dp"
+                android:contentDescription="@string/tz_description"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/start_city0"
+                android:layout_width="135dp"
+                android:layout_height="50dp"
+                android:fontFamily="@font/roboto"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/start_city1"
+                android:layout_width="135dp"
+                android:layout_height="50dp"
+                android:fontFamily="@font/roboto"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/start_city2"
+                android:layout_width="135dp"
+                android:layout_height="50dp"
+                android:fontFamily="@font/roboto"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+        </TableRow>
+
+        <TableRow>
+            <ImageView
+                android:id="@+id/start_timezone3"
+                android:layout_width="110dp"
+                android:layout_height="100dp"
+                android:contentDescription="@string/tz_description"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+            <ImageView
+                android:id="@+id/start_timezone4"
+                android:layout_width="110dp"
+                android:layout_height="100dp"
+                android:contentDescription="@string/tz_description"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+            <ImageView
+                android:id="@+id/start_timezone5"
+                android:layout_width="110dp"
+                android:layout_height="100dp"
+                android:contentDescription="@string/tz_description"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/start_city3"
+                android:layout_width="135dp"
+                android:layout_height="50dp"
+                android:fontFamily="@font/roboto"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/start_city4"
+                android:layout_width="135dp"
+                android:layout_height="50dp"
+                android:fontFamily="@font/roboto"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/start_city5"
+                android:layout_width="135dp"
+                android:layout_height="50dp"
+                android:fontFamily="@font/roboto"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/start_button"
+        android:layout_width="342dp"
+        android:layout_height="61dp"
+        android:background="@drawable/button"
+        android:fontFamily="@font/roboto"
+        android:onClick="startGame"
+        android:text="@string/start_next"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.947" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

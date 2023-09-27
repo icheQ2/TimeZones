@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TimeZones</string>
+    <string name="tz_description">image of a timezone</string>
+    <string name="welcome">match the time zone with the city</string>
+    <string name="play">play</string>
+    <string name="main_menu">choose if you want to play casual or fast mode</string>
+    <string name="choose_casual">casual</string>
+    <string name="choose_hard">play for time</string>
+    <string name="counter_zero">00:00</string>
+    <string name="start_next">next</string>
+    <string name="game_submit">submit</string>
+    <string name="game_selector">choose city</string>
+    <string name="end_congrats">congratulations!\nyou finished the game!your total score is</string>
+    <string name="end_restart">restart</string>
+</resources>
